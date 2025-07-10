@@ -2,14 +2,14 @@ import { MonsterService } from '../../services/monster/monster';
 import { Component, computed, effect, inject, model, NgModule } from '@angular/core';
 import { Monster } from '../../models/monster.model';
 import { signal } from '@angular/core';
-import { NgFor, NgIf } from '@angular/common';
+import { NgIf } from '@angular/common';
 import { SearchBar } from '../../components/search-bar/search-bar';
 import { PlayingCard } from '../../components/playing-card/playing-card';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-monster-list',
-  imports: [PlayingCard,SearchBar, NgFor,NgIf],
+  imports: [PlayingCard, SearchBar, NgIf],
   templateUrl: './monster-list.html',
   styleUrl: './monster-list.css'
 })
