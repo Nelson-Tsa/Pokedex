@@ -1,7 +1,7 @@
 {
   "version": 2,
   "outputDirectory": "dist/pokedex-angular",
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "npm install && ng build --configuration=production --verbose --skip-budgets",
   "installCommand": "npm install",
   "framework": "angular"
 }
