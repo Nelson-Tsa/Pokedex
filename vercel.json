@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "outputDirectory": "Front/dist/pokedex-angular",
+  "buildCommand": "cd Front && npm install && npm run build",
+  "installCommand": "cd Front && npm install",
+  "framework": "angular"
+}
